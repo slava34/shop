@@ -1,0 +1,468 @@
+.b-page{
+    margin-left: 5em;
+    margin-right: 5em;
+    Font-family: Lato, sans-serif;
+    Font-style: normal;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.b-basket{
+    height: 5.625em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.b-basket__logo{
+    margin-right: 0.625em;
+}
+
+.b-title__name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #1F2432;
+}
+
+.b-title__quantity{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    color: #797B86;
+}
+
+.b-title__price{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    color: #1F2432;
+}
+
+.b-way{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3.75em;
+}
+
+.b-way__main{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #33374E;
+}
+
+.b-way__basket{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #797B86;
+}
+
+.b-way__foto{
+    margin-right: 0.625em;
+    margin-left: 0.625em;
+}
+
+.b-location{
+    display: flex;
+    flex-direction: row;
+}
+
+.b-location__left-field{
+    width: 62.5%;
+    margin-right: 4%;
+}
+
+.b-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 3.125em;
+}
+
+.b-heading__head{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120.52%;
+    color: #1F2432;
+    margin-right: 1.375em;
+}
+
+.b-heading__sum{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #797B86;
+}
+
+.b-heading__clear{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #797B86;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.b-product{
+    display: flex;
+    flex-direction: row;
+    height: 145px;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 25px;
+}
+
+.b-product__foto, .b-product__description, .b-product__counter, .b-total-per-product{
+    display: flex;
+    align-items: center;
+}
+
+.b-product__description{
+    width: 45%;
+}
+
+.b-specification{
+    margin-left: 20px;
+    /*width: 90%;*/
+}
+
+.b-specification__name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    color: #1F2432;
+    margin-bottom: 0.375em;
+}
+
+.b-specification__parameters{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2C3242;
+    margin-bottom: 0.375em;
+    width: 75%;
+}
+
+.b-specification__article{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #797B86;
+}
+
+.b-product__counter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.b-registrar{
+    display: flex;
+    flex-direction: row;
+}
+
+.b-registrar__left-button, .b-registrar__result, .b-registrar__right-button {
+    width: 34px;
+    height: 34px;
+    background: #F6F8FA;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.b-registrar__left-button {
+    border-radius: 4px 0 0 4px;
+    margin-right: 2px;
+    padding-bottom: 3px;
+}
+
+
+.b-registrar__right-button {
+    border-radius: 0 4px 4px 0;
+    margin-left: 2px;
+}
+
+.b-price-per-piece{
+    margin-left: 22px;
+    padding-top: 7px;
+
+}
+
+.b-price-per-piece__style {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    color: #1F2432;
+}
+
+.b-total-per-product{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b-total-per-product__style{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 145%;
+    color: #1F2432;
+}
+
+.b-delete-product{
+    margin-left: auto;
+}
+
+.b-delete-product__button{
+    background-color: white;
+    border: none;
+}
+
+.b-delete-product__img{
+    width: 12px;
+    height: 12px;
+    align-items: flex-end;
+}
+
+.b-installation{
+    height: 46px;
+    background: #F6F8FA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 28px 43px 28px 25px;
+}
+
+.b-installation__checkbox{
+    margin-right: 20px;
+}
+
+.b-installation__foto{
+    margin-right: 20px;
+}
+
+.b-definition__term{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    color: #1F2432;
+}
+
+.b-definition__explanation{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #797B86;
+}
+
+.b-location__right-field{
+    margin-top: 6.4em;
+}
+
+.b-payment{
+    width: 365px;
+    height: 388px;
+    background: #F6F8FA;
+    border-radius: 5px;
+    padding: 35px 30px 35px;
+}
+
+.b-payment__order{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #AEB0B6;
+    padding-bottom: 11px;
+}
+
+.b-total-in-basket{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120.52%;
+    color: #1F2432;
+    margin-bottom: 31px;
+}
+
+.b-items-in-basket__name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    color: #1F2432;
+    margin-bottom: 17px;
+}
+
+.b-summary-by-points{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.b-summary-by-points__result{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #1F2432;
+    margin-bottom: 17px;
+}
+
+.b-amount-be-paid{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+
+.b-amount-be-paid__text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 145%;
+    color: #1F2432;
+}
+
+.b-amount-be-paid__cost{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.005em;
+    color: #1F2432;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.b-order-execution__making{
+    width: 365px;
+    height: 54px;
+    background: #0069B4;
+    border-radius: 4px;
+    border: #0069B4;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 145%;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.b-order-execution__one-click{
+    width: 365px;
+    height: 54px;
+    left: 965px;
+    top: 709px;
+    background: #FFFFFF;
+    border: 1px solid #0069B4;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 145%;
+    color: #0069B4;
+}
+
+.b-previously-viewed{
+    margin-top: 95px;
+}
+
+.b-caption{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-caption__text{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120.52%;
+    color: #1F2432;
+}
+
+.b-button-slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.b-viewed-product-card{
+    height: 513px;
+    width: 220px;
+    padding: 25px 35px 25px 25px;
+    background: #F6F8FA;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.b-button-slider__left, .b-button-slider__right{
+    height: 40px;
+    width: 40px;
+    background: #90A2B5;
+    transform: rotate(-180deg);
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.b-button-slider__counter{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.b-counter-digits__left{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #212121;
+}
+
+.b-previously-viewed__products{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.b-viewed-product-specification__name{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120.52%;
+    color: #1F2432;
+    margin-bottom: 10px;
+}
+
+.b-viewed-product-specification__detailed{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 145%;
+    color: #1F2432;
+    margin-bottom: 59px;
+}
+
+.b-viewed-product-specification__price-rubles{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    letter-spacing: 0.005em;
+    color: #1F2432;
+}
+
+.b-viewed-product-specification__price-euro{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: #797B86;
+    margin-bottom: 20px;
+}
+
+.b-learn-button{
+    width: 245px;
+    height: 52px;
+    background: #0069B4;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    color: #FFFFFF;
+}
