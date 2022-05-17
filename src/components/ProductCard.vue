@@ -2,7 +2,7 @@
   <!--    start 1     -->
   <div class="b-product">
     <div class="b-product__foto">
-      <a><img :src="product.img"></a>
+      <a><img :src="require(`../assets/img/${product.image}`)"></a>
     </div>
     <div class="b-product__description">
       <div class="b-specification">

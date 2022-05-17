@@ -1,7 +1,7 @@
 const products = [
     {
-        "image": "1.jpg",
-        "name": "Вытяжное устройство G1H",
+        "image": "G2H.png",
+        "name": "Вытяжное устройство G2H",
         "price": 12644,
         "description": "12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия",
         "article": "G2H1065",
@@ -10,8 +10,8 @@ const products = [
         "total_price": 12644
     },
     {
-        "image": "1.jpg",
-        "name": "Вытяжное устройство G2H",
+        "image": "BXCgl.png",
+        "name": "Вытяжное устройство BXC",
         "price": 12644,
         "description": "12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия",
         "article": "G2H1065",
@@ -20,8 +20,8 @@ const products = [
         "total_price": 12644
     },
     {
-        "image": "1.jpg",
-        "name": "Вытяжное устройство G3H",
+        "image": "GHNgl.png",
+        "name": "Вытяжное устройство GHN",
         "price": 12644,
         "description": "12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия",
         "article": "G2H1065",

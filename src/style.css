@@ -388,11 +388,13 @@ p{
 
 .b-viewed-product-card{
     height: 513px;
-    width: 220px;
-    padding: 25px 35px 25px 25px;
+    width: 240px;
+    padding: 25px;
     background: #F6F8FA;
     border-radius: 5px;
-    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .b-button-slider__left, .b-button-slider__right{
@@ -420,8 +422,10 @@ p{
 .b-previously-viewed__products{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    width: 100%;
 }
+
 
 .b-viewed-product-specification__name{
     font-weight: 700;
@@ -445,6 +449,8 @@ p{
     line-height: 130%;
     letter-spacing: 0.005em;
     color: #1F2432;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 .b-viewed-product-specification__price-euro{

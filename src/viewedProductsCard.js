@@ -11,8 +11,8 @@ const viewedProduct = {
         "id":1
     },
     {
-        "image": "BXC.png",
-        "name": "BXC2",
+        "image": "BD.png",
+        "name": "G2H",
         "description": "Вытяжное устройство для механической системы вентиляции",
         "priceRubMin": 6848,
         "priceRubMax": 56584,
@@ -21,9 +21,9 @@ const viewedProduct = {
         "id":2
     },
     {
-        "image": "BXC.png",
-        "name": "BXC3",
-        "description": "Вытяжное устройство для механической системы вентиляции",
+        "image": "GHN.png",
+        "name": "GHN",
+        "description": "Вытяжное устройство с датчиком присутствия",
         "priceRubMin": 6848,
         "priceRubMax": 56584,
         "priceEuroMin": 77.60,
@@ -31,9 +31,9 @@ const viewedProduct = {
         "id":3
     },
     {
-        "image": "BXC.png",
-        "name": "BXC4",
-        "description": "Вытяжное устройство для механической системы вентиляции",
+        "image": "TDA.png",
+        "name": "TDA",
+        "description": "Вытяжное устройство с датчиком присутствия",
         "priceRubMin": 6848,
         "priceRubMax": 56584,
         "priceEuroMin": 77.60,
@@ -42,7 +42,7 @@ const viewedProduct = {
     },
     {
         "image": "BXC.png",
-        "name": "BXC5",
+        "name": "BXC1",
         "description": "Вытяжное устройство для механической системы вентиляции",
         "priceRubMin": 6848,
         "priceRubMax": 56584,
@@ -51,8 +51,8 @@ const viewedProduct = {
         "id":5
     },
     {
-        "image": "BXC.png",
-        "name": "BXC6",
+        "image": "BD.png",
+        "name": "G2H",
         "description": "Вытяжное устройство для механической системы вентиляции",
         "priceRubMin": 6848,
         "priceRubMax": 56584,
@@ -61,6 +61,6 @@ const viewedProduct = {
         "id":6
     }
 ],
-    pageNumber: 0
+    pageNumber: 0,
 }
 export default viewedProduct

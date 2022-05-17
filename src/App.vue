@@ -66,7 +66,7 @@
                 <p class="b-items-in-basket__name">Установка</p>
               </div>
               <div class="b-summary-by-points">
-                <p class="b-summary-by-points__result">{{ computePrice }}</p>
+                <p class="b-summary-by-points__result">{{ computePrice }} ₽</p>
                 <p class="b-summary-by-points__result">{{ computeNumberOfProducts }}</p>
                 <p class="b-summary-by-points__result" v-if="!needInstall || this.$store.getters.getProducts.length === 0">нет</p>
                 <p class="b-summary-by-points__result" v-else>да</p>
@@ -95,9 +95,9 @@
             <p class="b-caption__text">Просмотренные товары</p>
             <div class="b-caption__slider">
               <div class="b-button-slider">
-                <button class="b-button-slider__left" :disabled="isFirst" @click="previousPage">-</button>
+                <button class="b-button-slider__left" :disabled="isFirst" @click="previousPage"> &gt; </button>
                 <div class="b-button-slider__counter"><b>{{ computeCurrentPage }}</b>/{{ computeAllPage }}</div>
-                <button class="b-button-slider__right" :disabled="isLast" @click="nextPage">+</button>
+                <button class="b-button-slider__right" :disabled="isLast" @click="nextPage"> &lt; </button>
               </div>
             </div>
           </div>

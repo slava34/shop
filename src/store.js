@@ -6,9 +6,6 @@ Vue.use(Vuex);
 
 let store = new Vuex.Store({
     state: {
-        // price: null,
-        // numberOfProducts: 0,
-        // needInstall: false,
         products: null,
         viewedProduct: null
     },
@@ -19,9 +16,6 @@ let store = new Vuex.Store({
         VIEWED_INIT ({commit}) {
             commit('VIEWED_INIT')
         },
-        // UPDATE_PRICE ({commit}, productPrice) {
-        //     commit('UPDATE_PRICE', productPrice)
-        // },
         ADD_PRODUCT ({commit}, productId) {
             commit('ADD_PRODUCT', productId)
         },
@@ -48,11 +42,7 @@ let store = new Vuex.Store({
         VIEWED_INIT: (state) => {
             state.viewedProduct = viewedProduct;
         },
-        // UPDATE_PRICE: (state, productPrice) => {
-        //     state.price += productPrice;
-        // },
         ADD_PRODUCT: (state, productId) => {
-            // state.numberOfProducts++;
             state.products.forEach(function(product) {
                 if (product.id === productId) {
                     product.quantity++
@@ -61,7 +51,6 @@ let store = new Vuex.Store({
             });
         },
         REMOVE_PRODUCT: (state, productId) => {
-            // state.numberOfProducts--;
             state.products.forEach(function(product) {
                 if (product.id === productId) {
                     product.quantity--
@@ -74,7 +63,6 @@ let store = new Vuex.Store({
             state.price -= currentProduct.total_price;
         },
         CLEAR_CART: state => state.products = [],
-        // QUANTITY_PRODUCT: state => !state.needInstall,
         NEXT_PRODUCT: (state) => {
             state.viewedProduct.pageNumber ++
         },
@@ -83,18 +71,9 @@ let store = new Vuex.Store({
         }
     },
     getters: {
-        // getPrice(state) {
-        //     return state.price;
-        // },
-        // getNumberOfProducts(state) {
-        //     return state.numberOfProducts;
-        // },
         getProducts(state) {
             return state.products;
         },
-        // getNeedInstall(state) {
-        //     return state.needInstall;
-        // }
         getViewedProduct(state) {
             return state.viewedProduct;
         },

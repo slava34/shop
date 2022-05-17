@@ -6,9 +6,9 @@
     <div class="b-viewed-product-card__description">
       <div class="b-viewed-product-specification">
         <p class="b-viewed-product-specification__name">{{ viewedProductsCard.name }}</p>
-        <p class="b-viewed-product-specification__detailed"> {{ viewedProductsCard.id }}</p>
-        <p class="b-viewed-product-specification__price-rubles">6 848 ₽ – 56 584 ₽ </p>
-        <p class="b-viewed-product-specification__price-euro">77.60 € – 643.86 €</p>
+        <p class="b-viewed-product-specification__detailed"> {{ viewedProductsCard.description }}</p>
+        <p class="b-viewed-product-specification__price-rubles">{{ viewedProductsCard.priceRubMin }} ₽ – {{ viewedProductsCard.priceRubMax }} ₽ </p>
+        <p class="b-viewed-product-specification__price-euro">{{ viewedProductsCard.priceEuroMin }} € – {{ viewedProductsCard.priceEuroMax }} €</p>
       </div>
     </div>
     <div class="b-viewed-product-card__button">
